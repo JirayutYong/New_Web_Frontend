@@ -138,6 +138,8 @@ i {
     color: rgb(255, 255, 255);
     font-size: 1.6em;
     text-shadow: 10px 10px 10px rgb(0, 0, 0);
+	animation:Bot 3s ease 0s infinite normal none;
+	
 }
 
 .loader-wrapper {
@@ -183,26 +185,30 @@ i {
   }
 
 button{
-    padding: 20px 50px;
+    padding: 20px 45px;
     font-size: 1.5rem;
     cursor: pointer;
     border: 0px;
+	border-radius: 0%;
     background: transparent;
     position: relative;
     margin: 20px;
     transition: all 0.25s ease;
+	animation:Bot 3s ease 0s infinite normal none;
 }
+
 .btn-1:hover::after{
-    transform: translate(-5px,-5px);
-    border:5px solid #15258f;
+    transform: translate(-7px,-7px);
+    border:5px solid #5ea9ff ;
 }
 .btn-1:hover::before{
-    transform: translate(5px,5px);
-    border:5px solid #15258f;
+    transform: translate(7px,7px);
+    border:5px solid #1608e2;
 }
 .btn-1:after,.btn-1::before{
     content:"";
     border:5px solid rgb(255, 255, 255);
+	
     position: absolute;
     border-radius: inherit;
     width:100%;
@@ -212,6 +218,8 @@ button{
     transition: all 0.25s ease;
    
 }
+
+
 .typing{
     position: relative;
     line-height: 24px;
@@ -223,8 +231,8 @@ button{
 .typing:after{
     content:"";
     position: absolute;
-    top:-15%;
-    width:8px;
+    top:-47%;
+    width:15px;
     height: 220%;
     border-right:4px solid rgb(255, 255, 255) ;
     animation: blink 0.7s infinite ease;
@@ -300,16 +308,31 @@ button{
 	width: 0px;
 }
 
+@keyframes Bot {
+    0.0%{
+		text-shadow: 4px 4px 4px rgb(253, 253, 255);
+		transform:scale(1.1);
+    }
+    50.8%{
+		
+		text-shadow: 8px 8px 8px rgb(151, 151, 248);
+    }
+	100%{
+		
+		text-shadow: 10px 10px 10px rgb(21, 5, 243);
+    }
+}
 
 @keyframes Anime {
     0.0%{
         color: transparent;
+		
     }
     100%{
         color: transparent;
     }
     49.9%{
-        transform: translate(200px,20px) scale(1.8);
+        transform: translate(200px,20px) scale(1.5);
         color: rgb(255, 255, 255);
     }
 }
