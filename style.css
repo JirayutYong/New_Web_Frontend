@@ -155,8 +155,8 @@ i {
 }
 
 .loader {
-    width: 55px;
-    height: 65px;
+    width: 15px;
+    height: 15px;
     position: absolute;
     top:37%;
     border: 2px solid rgb(255, 255, 255);

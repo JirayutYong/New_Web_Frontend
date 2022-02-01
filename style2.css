@@ -156,8 +156,8 @@ i {
 }
 
 .loader {
-    width: 55px;
-    height: 65px;
+	width: 15px;
+    height: 15px;
     position: absolute;
     top:37%;
     border: 2px solid rgb(255, 255, 255);
@@ -361,10 +361,17 @@ ul li {
 }
 
 .card:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
+	border-color:rgb(21, 5, 243);
 }
+
+.check_btn:hover{
+	background-color:rgb(21, 5, 243);
+}
+
+
 .card:active {
-    transform: scale(.95)
+    transform: scale(.95);
 }
 
 input[id="card_one"]:checked ~ label[for="card_one"] .card,
@@ -375,11 +382,6 @@ input[id="card_three"]:checked ~ label[for="card_three"] .card {
 /* you can see based on which card is checked the border color will be changed */
 /* ~ selector selects the sibling elements, in this case the label */
 
-input[id="card_one"]:checked ~ label[for="card_one"] .card .check_btn,
-input[id="card_two"]:checked ~ label[for="card_two"] .card .check_btn,
-input[id="card_three"]:checked ~ label[for="card_three"] .card .check_btn {
-    background-color: rgb(21, 5, 243);
-}
 
 input[id="card_one"]:checked ~ label[for="card_one"] .card .img,
 input[id="card_two"]:checked ~ label[for="card_two"] .card .img,
