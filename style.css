@@ -194,12 +194,12 @@ button{
     position: relative;
     margin: 20px;
     transition: all 0.25s ease;
-	animation:Bot 3s ease 0s infinite normal none;
+	
 }
 
 .btn-1:hover::after{
     transform: translate(-7px,-7px);
-    border:5px solid #5ea9ff ;
+    border:5px solid #1608e2 ;
 }
 .btn-1:hover::before{
     transform: translate(7px,7px);
@@ -535,6 +535,9 @@ button{
 		position: absolute;
 		top:40%;
 		font-size: 2em;
-		text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+		text-shadow: 10px 10px 10px rgb(21, 5, 243);
+	}
+	.search-box{
+		display: none;
 	}
 }

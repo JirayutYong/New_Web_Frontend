@@ -120,6 +120,8 @@ i {
 }
 .header {
     display: flex;
+	 display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items:center;
     width:100%;
@@ -195,7 +197,7 @@ button{
     position: relative;
     margin: 20px;
     transition: all 0.25s ease;
-	animation:Bot 3s ease 0s infinite normal none;
+
 }
 
 .btn-1:hover::after{
@@ -619,9 +621,16 @@ input{
 		transition: all 0.25s ease;
 	}
 	.header p{
-		position: absolute;
-		top:40%;
-		font-size: 2em;
-		text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+		position:relative;
+		top:60px;
+		font-size: 2.5em;
+	}
+	.img {
+		width: 200px;
+		height: 200px;
+	}
+	.header {
+		width:100%;
+		height:100%;
 	}
 }
