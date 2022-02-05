@@ -36,6 +36,9 @@ $(window).on('resize', function(){
 });
 $(".navbar-toggler").click(function(){
 	$(".navbar-collapse").slideToggle(300);
+	$(".header p").slideToggle(300);
+	$(".targetElement").slideToggle(10);
+	$(".targetElement2").slideToggle(10);
 	setTimeout(function(){ test(); });
 });
 
