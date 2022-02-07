@@ -500,6 +500,11 @@ button{
 	.loader {
 		border: 1px solid rgb(255, 255, 255);
 	  }
+	  .typing{
+		position: relative;
+		line-height: 13px;
+		min-height: 2px;
+	}
 }
 @media screen and (max-width: 550px){
 	#navbarSupportedContent ul li a{
@@ -562,5 +567,10 @@ button{
 	  }
 	.search-box{
 		display: none;
+	}
+	.typing{
+		position: relative;
+		line-height: 13px;
+		min-height: 2px;
 	}
 }
