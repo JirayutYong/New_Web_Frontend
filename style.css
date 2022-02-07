@@ -436,6 +436,9 @@ button{
 	.search-box{
 		display: none;
 	}
+	.loader {
+		border: 1px solid rgb(255, 255, 255);
+	  }
     
 }
 @media screen and (max-width: 699px)and (min-width:550px){
@@ -501,9 +504,8 @@ button{
 		border: 1px solid rgb(255, 255, 255);
 	  }
 	  .typing{
-		position: relative;
-		line-height: 13px;
-		min-height: 2px;
+		line-height: 0px;
+		min-height: 0px;
 	}
 }
 @media screen and (max-width: 550px){
@@ -536,16 +538,6 @@ button{
 		bottom: -25px;
 		left: -25px;
 	}
-	.targetElement{
-        font-size: 1.5rem;
-        top:75%;
-        left:10%;
-    }
-    .targetElement2{
-        font-size: 1.5rem;
-       top:80%;
-	   left:95%
-    }
 	button{
 		padding: 10px 10px;
 		font-size: 0.9rem;
@@ -569,8 +561,7 @@ button{
 		display: none;
 	}
 	.typing{
-		position: relative;
-		line-height: 13px;
-		min-height: 2px;
+		line-height: 0px;
+		min-height: 0px;
 	}
 }
