@@ -497,6 +497,9 @@ button{
 	.search-box{
 		display: none;
 	}
+	.loader {
+		border: 1px solid rgb(255, 255, 255);
+	  }
 }
 @media screen and (max-width: 550px){
 	#navbarSupportedContent ul li a{
@@ -529,18 +532,18 @@ button{
 		left: -25px;
 	}
 	.targetElement{
-        font-size: 2rem;
-        top:70%;
-        left:-5%;
+        font-size: 1.5rem;
+        top:75%;
+        left:10%;
     }
     .targetElement2{
-        font-size: 2rem;
-        top:70%;
-        left:105%;
+        font-size: 1.5rem;
+       top:80%;
+	   left:95%
     }
 	button{
 		padding: 10px 10px;
-		font-size: 1rem;
+		font-size: 0.9rem;
 		cursor: pointer;
 		border: 0px;
 		background: transparent;
@@ -554,6 +557,9 @@ button{
 		font-size: 2em;
 		text-shadow: 10px 10px 10px rgb(21, 5, 243);
 	}
+	.loader {
+		border: 1px solid rgb(255, 255, 255);
+	  }
 	.search-box{
 		display: none;
 	}
