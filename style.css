@@ -124,7 +124,7 @@ i {
     align-items:center;
     width:100%;
     height:100vh;
-    background: url(https://i.pinimg.com/originals/13/b0/00/13b0000818cfd9cf27d39afaa051dc23.gif) no-repeat;
+    background: url(https://wallpaperxyz.com/wp-content/uploads/Chill-Lofi-Background-Wallpaper-Full-HD-Free-Download-for-PC-Laptop-Macbook-231121-Wallpaperxyz.com-1.gif) no-repeat;
     background-size:cover;
 }
 .header p{
@@ -140,6 +140,17 @@ i {
     text-shadow: 10px 10px 10px rgb(0, 0, 0);
 	animation:Bot 3s ease 0s infinite normal none;
 	
+}
+
+.header-book{
+	display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    height:100vh;
+    background: url(https://i.pinimg.com/originals/13/b0/00/13b0000818cfd9cf27d39afaa051dc23.gif) no-repeat;
+    background-size:cover;
+
 }
 
 .loader-wrapper {
